@@ -3,6 +3,8 @@ domain.js where you can add you domain or ip where your backend is hosted.
 this is dummy project to use Chat-gpt in Food Delivery applications.
 Chat feature is mainly focused.
 This is made on Expo Go.
+the UI of the app is not good only the integration and working on chatgpt integration was main focus.
+will update the project mainly focused on UI.
 Our project leverages Expo Go to create a streamlined ordering system that integrates seamlessly with ChatGPT, an advanced AI-powered chatbot. This innovative system revolutionizes customer interaction by allowing orders to be placed directly through natural language conversations with ChatGPT.
 
 Key Features:
