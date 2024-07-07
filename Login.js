@@ -20,7 +20,7 @@ export default function Login({navigation}) {
 
     else if(!pass)
     {
-      Alert.alert('please enter pass')
+      Alert.alert('please enter password')
     }
 
     else {
@@ -61,7 +61,7 @@ export default function Login({navigation}) {
 
         <View style={styles.inner}>
           <Text style={styles.fieldtext}>Phone #:</Text>
-          <TextInput style={[styles.field, username.length<12?{borderColor:'red'}:{borderColor:'black'}]} value={username} onChangeText={(u) => setusrnm(u)} placeholder='Format 923012345678'></TextInput>
+          <TextInput style={[styles.field, username.length<12?{borderColor:'red'}:{borderColor:'black'}]} value={username} onChangeText={(u) => setusrnm(u)} placeholder='Format 9230xxxxxxxx'></TextInput>
         </View>
 
         <View style={styles.inner}>
