@@ -49,7 +49,6 @@ export default function StartMenu({navigation}) {
 
     return(
         <View style={{ flex: 1 }}>
-            {/* <ImageBackground source={require('./assets/background2.png')} style={styles.bckimg}> */}
                 <View style={styles.upper}>
 
                     <View style={styles.left}>
@@ -83,7 +82,6 @@ export default function StartMenu({navigation}) {
                         <OButton title={'Contact us'} backgroundimg={require("./assets/contactus.jpg")} onPress={toContactUs} />
                     </View>
                 </View>
-            {/* </ImageBackground> */}
         </View>)
 }
 

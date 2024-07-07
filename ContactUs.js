@@ -21,11 +21,11 @@ export default function ContactUs() {
                 <Text style={styles.info}>write yourself here in detail and give the info about yor company and brand that is all to be given here</Text>
             </View>
             <View style={{ flex: 0.5 }}>
-                <MyText name='phone' size={30} title={'Phone'} detail={'+92 301 2345678'} />
+                <MyText name='phone' size={30} title={'Phone'} detail={'phone number here'} />
         
-                <MyText name='location-on' size={30} title={'location'} detail={'myaddress'} />
+                <MyText name='location-on' size={30} title={'location'} detail={'your address'} />
         
-                <MyText name='mail' size={30} title={'Email'} detail={'myemail@mail.com'} />
+                <MyText name='mail' size={30} title={'Email'} detail={'youremail@mail.here'} />
         
                 <View style={styles.TextStyle}>
                     <MaterialIcons style={{ flex: 0.30, padding: 5, margin: 2, textAlign: 'center' }} name='facebook' size={30}/>

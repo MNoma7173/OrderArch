@@ -1,3 +1,3 @@
 export default function Domain() {
-    return '' // backend domain
+    return 'domain or ip here' // backend domain
 }

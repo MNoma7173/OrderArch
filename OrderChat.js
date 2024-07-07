@@ -217,7 +217,6 @@ export default function OrderChat({navigation}) {
     })
     .
     then((answer)=>answer.json()).then( async (result)=>{
-      //console.log(result)
       if(result.error != null)
       {
         console.log(result)
