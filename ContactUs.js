@@ -25,7 +25,7 @@ export default function ContactUs() {
         
                 <MyText name='location-on' size={30} title={'location'} detail={'your address'} />
         
-                <MyText name='mail' size={30} title={'Email'} detail={'youremail@mail.here'} />
+                <MyText name='mail' size={30} title={'Email'} detail={'email here'} />
         
                 <View style={styles.TextStyle}>
                     <MaterialIcons style={{ flex: 0.30, padding: 5, margin: 2, textAlign: 'center' }} name='facebook' size={30}/>
