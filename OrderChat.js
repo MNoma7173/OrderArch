@@ -8,16 +8,6 @@ import { StyleSheet, TextInput, TouchableOpacity, View, ImageBackground } from '
 
 
 // https://api.openai.com/v1/chat/completions
-// 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
-
-// https://api.pawan.krd/v1/completions
-// https://api.pawan.krd/v1/chat/completions
-// pk-yqEKRqvYbmXzTfZHMXpYblLMAWEJpligoiEThbJxXQkoENyc
-
-// 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
-// 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
-
-// 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
 
 export function myBub(props) {
   return (
@@ -217,7 +207,7 @@ export default function OrderChat({navigation}) {
       method: "POST",
       headers:{
         "Content-Type": "application/json",
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer token-here-given-by-openai.com",
       },
       body:JSON.stringify({
         "model": "gpt-3.5-turbo-16k-0613",
